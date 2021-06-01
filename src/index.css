@@ -1,0 +1,204 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+h1, h2, h3, p, #searchbar-brand, #navbar-brand {
+    font-family: "Brush Script MT", cursive !important;
+}
+
+#root {
+    min-height: 30%;
+}
+
+/*
+HOMEPAGE
+ */
+
+/* Header CSS */
+#header {
+    background: whitesmoke;
+    color: deepskyblue;
+}
+
+#headerText {
+    margin: auto;
+}
+
+/* Search Bar CSS */
+.btn-group button{
+    border: solid 1px;
+}
+
+.dropdown-toggle {
+    border: solid 1px;
+}
+
+#search-bar-button {
+    background-color: deepskyblue;
+    color: black;
+    border: solid 1px;
+    position: absolute;
+    right: 5%;
+}
+
+#search-bar-input {
+    border: solid 1px;
+}
+
+#searchbar-brand {
+    color: deepskyblue;
+}
+
+.dropdown-item {
+    height: 29px;
+}
+
+/* Small (mobile) screens */
+@media only screen and (max-width: 766px) {
+    #search-bar-input {
+        width: 40%;
+    }
+
+    .card-body {
+        right: 10%;
+    }
+}
+
+/* Medium (tablet) screens */
+@media only screen and (min-width: 576px) {
+    #searchbar-brand {
+        display: none;
+    }
+}
+
+/* Large (desktop) screens */
+@media only screen and (min-width: 992px) {
+}
+
+/* House Grid CSS */
+.row {
+    max-width: 100%;
+    margin-right: unset; /* Undo the inital styling */
+    margin-left: unset;
+    justify-content: center;
+}
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+}
+
+.column img{
+    width: 100%;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border: solid;
+}
+
+#house-grid-row {
+    height: 300px;
+}
+
+#house-grid-col, #house-grid-col img {
+    height: 100%;
+}
+
+#house-grid-col img {
+    width: 100%;
+}
+
+#featured-properties-row {
+    height: 160px;
+}
+
+#featured-properties-col, #featured-properties-col .card, #featured-properties-col .card img {
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 576px) { /* tablet screen size */
+    .card-body {
+        right: 5%;
+    }
+}
+
+/* Blue Box CSS */
+.skb-sq {
+    color: deepskyblue;
+    min-height: 35px;
+    padding: 25px 0 25px;
+}
+
+/* House Cards CSS */
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    max-width: 50%;
+}
+
+.card-body {
+    position: absolute;
+    max-width: 50%;
+    padding: 0 0 0 10px;
+}
+
+/*
+PROPERTY PAGE
+ */
+
+#navbar-brand {
+    color: deepskyblue;
+}
+
+#propimg img {
+    max-width: 100%;
+}
+
+#new-location-container {
+    height: 139px;
+}
+
+#location-image-container{
+    max-width: 40%;
+    float: left;
+    height: 139px;
+}
+
+#nearby-locations {
+    max-height: 300px;
+}
+
+
+#location-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#location-text-container {
+    overflow: hidden;
+    margin: auto;
+}
+
+#prop-page-hr {
+    border-top: 1px solid #000000;
+}
+
+/*
+RESULTS PAGE
+ */
+#search-results .card {
+    height: 240px;
+}
+
+#search-results .card img {
+    height: 100%;
+}
